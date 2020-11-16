@@ -1,3 +1,3 @@
-# [trafficsim] (https://pastachefs.github.io/trafficsim)
+# trafficsim
 
-This repository hosts webpage content detailing information regarding Team PastaChef's graduation project.
+This repository hosts webpage content detailing information regarding Team PastaChef's [graduation project](https://pastachefs.github.io/trafficsim). 
