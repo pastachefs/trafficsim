@@ -284,6 +284,10 @@
 		max-width: calc(100% - #{_size(element-margin) * 2});
 		width: _size(container-width);
 
+		a {
+			color: _palette(link);
+		}
+
 		&.xsmall {
 			width: (_size(container-width) * 0.25);
 		}

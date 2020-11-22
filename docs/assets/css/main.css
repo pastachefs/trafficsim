@@ -1341,6 +1341,9 @@ pre code {
   max-width: calc(100% - 4.5em);
   width: 45em;
 }
+.container a {
+  color: #547b96;
+}
 .container.xsmall {
   width: 11.25em;
 }
