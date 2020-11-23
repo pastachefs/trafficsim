@@ -230,6 +230,22 @@ pre code {
   text-align: right;
 }
 
+/* profile */
+div .prof-image {
+  float: left;
+  width: 235px;
+  margin: 0 1em 15px 0;
+  padding: 15px;
+  text-align: center;
+}
+div img {
+  border-radius: 5px 5px 5px 5px;
+}
+div .fab {
+  font-size: 24px;
+  margin: 0.25em 0.25em 0 0.25em;
+}
+
 /* Row */
 .row {
   display: flex;
@@ -1396,6 +1412,7 @@ header h2 + p {
 header h3 + p {
   font-size: 1.1em;
   margin-top: -0.35em;
+  margin-bottom: 0.5em;
   line-height: 1.5em;
 }
 header h4 + p,
