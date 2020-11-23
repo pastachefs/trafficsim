@@ -41,6 +41,11 @@
 		vertical-align: baseline;
 	}
 
+	img{
+		width: 100%;
+		height: auto;
+	}
+
 	article, aside, details, figcaption, figure,
 	footer, header, hgroup, menu, nav, section {
 		display: block;
@@ -53,6 +58,7 @@
 	ol, ul {
 		list-style:none;
 	}
+
 
 	blockquote,	q {
 		quotes: none;
@@ -733,7 +739,7 @@
 	ol {
 		list-style: decimal;
 		margin: 0 0 _size(element-margin) 0;
-		padding-left: 1.25em;
+		padding-left: 3.25em;
 
 		li {
 			padding-left: 0.25em;
@@ -743,7 +749,7 @@
 	ul {
 		list-style: disc;
 		margin: 0 0 _size(element-margin) 0;
-		padding-left: 1em;
+		padding-left: 3em;
 
 		li {
 			padding-left: 0.5em;

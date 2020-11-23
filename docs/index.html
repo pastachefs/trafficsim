@@ -1,119 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>VR Traffic Simulator</title>
-        <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/25399fec6e.js" crossorigin="anonymous"></script>
-    </head>
-    <body class="is-preload">
-		<!-- header -->
-		<section id="header">
-			<header>
-				<h1 id="logo">
-					<a href="/trafficsim">Virtual Reality Traffic Simulator</a>
-				</h1>
-			</header>
-			<nav id="nav">
-				<ul>
-					<li><a href="#overview">About the Project</a></li>
-					<li><a href="#map-editor">Map Editor</a></li>
-					<li><a href="#traffic-control">Traffic Control</a></li>
-					<li><a href="#weather">Weather Conditions</a></li>
-					<li><a href="#pedestrian">Pedestrian Behavior</a></li>
-					<li><a href="#car-settings">Car Settings</a></li>
-				</ul>
-			</nav>
-			<footer>
-				<ul class="icons">
-					<li><a href="about.html" alt="About the developers" class="fab fa-dev"></a></li>
-				</ul>
-			</footer>
-		</section>
 
-		<!-- title bar -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VR Traffic Simulator</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/25399fec6e.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="/assets/img/pasta.jpg">
+</head>
 
-		<div id="wrapper">
-			<div id="main">
-				<section id="overview">
-					<div class="container">
-						<p><a href="/trafficsim">home</a></p>
-						<h3>About the Project</h3>
-						<section>
-              <p>
-                TrafficSim is a VR-compatible driving simulator developed for the CSUS Civil Engineering department to help gather data from users about their driving habits and reactions under different road conditions. This project has the long term goal of helping the Civil Engineering department to develop better, safer roads for everyday citizens by determining which conditions help the average driver to practice good driving habits and which conditions encourage undesirable behaviors. The Traffic Simulator shall provide value to the Department of Civil Engineering in the form of an accurate and immersive virtual reality driving simulation that will record behavioral data for graduate students. This behavioral data can then be studied for the purpose of statistical analysis. While such simulation tools already exist without virtual reality, they either do not provide an immersive or accurate enough driving simulation to be of significant use or are too expensive to be considered by the department. Through the inclusion of virtual reality, this project will provide an experience closer to the better simulators while providing a cost closer to the cheaper simulators.
-              </p>
-              <img src="assets/img/about.png" alt="Screenshot of a live view of TrafficSim" width="70%" height="70%">
-						</section>
+<body class="is-preload">
+  <!-- header -->
+  <section id="header">
+    <header>
+      <h1 id="logo">
+        <a href="/trafficsim">Virtual Reality Traffic Simulator</a>
+      </h1>
+      <p>Team PastaChefs</p>
+    </header>
+    <nav id="nav">
+      <ul>
+        <li><a href="#overview">About the Project</a></li>
+        <li><a href="#map-editor">Map Editor</a></li>
+        <li><a href="#traffic-control">Traffic Control</a></li>
+        <li><a href="#weather">Weather Conditions</a></li>
+        <li><a href="#pedestrian">Pedestrian Behavior</a></li>
+        <li><a href="#car-settings">Car Settings</a></li>
+      </ul>
+    </nav>
+    <footer>
+      <ul class="icons">
+        <li><a href="about.html" alt="About the developers" class="fab fa-dev"></a></li>
+      </ul>
+    </footer>
+  </section>
 
-						<section id="map-editor">
-							<h3>Map Editor</h3>
-							<p>
-                Our group will expand on the map editor by:
-                <ul>
-                  <li>Adding more road types such as intersections and highway interchanges</li>
-                  <li>Adding stop signs, traffic lights, and construction/school zone signs</li>
-                  <li>Allowing the user to save their custom map</li>
-                </ul>
-              </p>
-						</section>
+  <!-- title bar -->
 
-						<section id="traffic-control">
-							<h3>Traffic Control</h3>
-							<p>
-                The current simulator only has the ability to modify the density of traffic. Our group would also like to implement the behavior of the traffic, with the user being able to control the aggressiveness of the AI drivers.
-              </p>
-						</section>
+  <div id="wrapper">
+    <div id="main">
+      <section id="overview">
+        <div class="container">
+          <p><a href="/trafficsim">home</a></p>
+          <h3>About the Project</h3>
+          <section>
+            <img src="assets/img/about.png" alt="Screenshot of a live view of TrafficSim" width="70%" height="70%">
+            <p>
+              Traffic Simulator (TrafficSim) is a virtual reality driving simulator developed for Dr. Ghazan Khan from the Sacramento State Civil Engineering department and his research team to help gather data from users about their driving habits
+              and driving reactions under different road conditions. This project has the long term goal of assisting Dr. Khan’s team with the development of better, safer roads for everyday citizens by determining which conditions help the average
+              driver practice good habits and which conditions encourage undesirable behaviors. TrafficSim shall provide value to Dr. Khan in the form of an accurate and immersive virtual reality driving simulation that will record behavioral data
+              for graduate students. This behavior data can then be studied for the purpose of statistical analysis. While such simulation tools already exist without virtual reality, they either do not provide an immersive or accurate enough
+              simulation to be of meaningful use or are too expensive and impractical to be considered by the department. Through the use of virtual reality, this project will prove to be a more cost-effective and practical tool for his team’s
+              research, while maintaining the realism of a more expensive research simulation environment.
+            </p>
+          </section>
 
-						<section id="weather">
-							<h3>Weather Conditions</h3>
-							<p>
-                The simulator currently has no weather mechanics, with the road conditions being dry the entire time. Our group will expand upon this by:
-                <ul>
-                  <li>Implementing a slider in the settings to change the weather to rainy/foggy in real time</li>
-                  <li>Adding road glare that inhibits the driver's vision</li>
-                  <li>Adding rainy/foggy blocks of road in the map editor</li>
-                </ul>
-              </p>
-						</section>
+          <section id="map-editor">
+            <h3>Map Editor</h3>
+            <p>
+              Our group will expand on the map editor by:
+            <ul>
+              <li>Adding more road types such as intersections and highway interchanges</li>
+              <li>Adding stop signs, traffic lights, and construction/school zone signs</li>
+              <li>Allowing the user to save their custom map</li>
+            </ul>
+            </p>
+          </section>
 
-						<section id="pedestrian">
-							<h3>Pedestrian Behavior</h3>
-							<p>
-                The current behavior of pedestrians is to continuously walk in a straight path. Our group would like to modify the behavior of the pedestrian AI by having pedestrians convey their intent through body language (e.g. standing at an crosswalk, waiting to cross the road). In addition our group would like to modify the speed at which the pedestrians move (i.e. walking down a sidewalk or running across the street).
-              </p>
-						</section>
+          <section id="traffic-control">
+            <h3>Traffic Control</h3>
+            <p>
+              The current simulator only has the ability to modify the density of traffic. Our group would also like to implement the behavior of the traffic, with the user being able to control the aggressiveness of the AI drivers.
+            </p>
+          </section>
 
-						<section id="car-settings">
-							<h3>Car Settings</h3>
-							<p>
-                Currently, the simulator only has 6 settings to modify the car’s behavior. In addition to modifying the car’s turning physics to make the simulator more realistic, our group will extend upon the car settings by:
-                <ul>
-                    <li>Implementing the ability to enable/disable traction control</li>
-                    <li>Implementing a text field to set the acceleration delay</li>
-                    <li>Implementing fuel consumption rate</li>
-                    <li>Implementing a slider to modify the car’s handling</li>
-                </ul>
-                Our group will also finish implementing the fuel capacity/level since the car currently does not consume fuel while running and will continue to run even when the current fuel level is set to zero.
-              </p>
-						</section>
-					</div>
-				</section>
-			</div>
-		</div>
+          <section id="weather">
+            <h3>Weather Conditions</h3>
+            <p>
+              The simulator currently has no weather mechanics, with the road conditions being dry the entire time. Our group will expand upon this by:
+            <ul>
+              <li>Implementing a slider in the settings to change the weather to rainy/foggy in real time</li>
+              <li>Adding road glare that inhibits the driver's vision</li>
+              <li>Adding rainy/foggy blocks of road in the map editor</li>
+            </ul>
+            </p>
+          </section>
 
-		<!-- scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
+          <section id="pedestrian">
+            <h3>Pedestrian Behavior</h3>
+            <p>
+              The current behavior of pedestrians is to continuously walk in a straight path. Our group would like to modify the behavior of the pedestrian AI by having pedestrians convey their intent through body language (e.g. standing at an
+              crosswalk, waiting to cross the road). In addition our group would like to modify the speed at which the pedestrians move (i.e. walking down a sidewalk or running across the street).
+            </p>
+          </section>
 
-	</body>
+          <section id="car-settings">
+            <h3>Car Settings</h3>
+            <p>
+              Currently, the simulator only has 6 settings to modify the car’s behavior. In addition to modifying the car’s turning physics to make the simulator more realistic, our group will extend upon the car settings by:
+            <ul>
+              <li>Implementing the ability to enable/disable traction control</li>
+              <li>Implementing a text field to set the acceleration delay</li>
+              <li>Implementing fuel consumption rate</li>
+              <li>Implementing a slider to modify the car’s handling</li>
+            </ul>
+            Our group will also finish implementing the fuel capacity/level since the car currently does not consume fuel while running and will continue to run even when the current fuel level is set to zero.
+            </p>
+          </section>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
