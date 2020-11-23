@@ -20,6 +20,11 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -1765,7 +1770,7 @@ input[type=radio] + label:before {
 ol {
   list-style: decimal;
   margin: 0 0 2.25em 0;
-  padding-left: 1.25em;
+  padding-left: 3.25em;
 }
 ol li {
   padding-left: 0.25em;
@@ -1774,7 +1779,7 @@ ol li {
 ul {
   list-style: disc;
   margin: 0 0 2.25em 0;
-  padding-left: 1em;
+  padding-left: 3em;
 }
 ul li {
   padding-left: 0.5em;
