@@ -26,7 +26,6 @@
       <ul>
         <li><a href="#overview">About the Project</a></li>
         <li><a href="#highlights">Highlight of the Project</a></li>
-        <li><a href="#proposed-solution">Proposed Solution</a></li>
         <li><a href="#map-editor">Map Editor</a></li>
         <li><a href="#traffic-control">Traffic Control</a></li>
         <li><a href="#weather">Weather Conditions</a></li>
@@ -69,19 +68,11 @@
             </p>
           </section>
 
-          <section id="proposed-solution">
-            <h3>Proposed Solution</h3>
-            <p>
-              Because Traffic Simulator is an ongoing project that has been worked on by many previous teams, our solution to this project is to refine the physics of the simulator as well as adding more features that will help with creating a more realistic simulator that closely resembles real-world driving conditions.
-            </p>
-          </section>
-
           <section id="map-editor">
             <h3>Map Editor (<a target="_blank" href = "https://www.figma.com/proto/8X0yln5mzWXjRA3P7ItXON/Prototype-A?node-id=9%3A3&scaling=min-zoom">Figma</a>)</h3>
             <p>
-              Our group will expand on the map editor by:
+              Our group has expanded on the map editor by:
             <ul>
-              <li>Adding more road types such as intersections and highway interchanges</li>
               <li>Adding stop signs, traffic lights, and construction/school zone signs</li>
               <li>Allowing the user to save their custom map</li>
             </ul>
@@ -91,41 +82,41 @@
           <section id="traffic-control">
             <h3>Traffic Control (<a target="_blank" href = "https://www.figma.com/proto/YHj6v2e9TKxjhriVWpU6Y9/Prototype-B?node-id=17%3A2&scaling=min-zoom">Figma</a>)</h3>
             <p>
-              The current simulator only has the ability to modify the density of traffic. Our group would also like to implement the behavior of the traffic, with the user being able to control the aggressiveness of the AI drivers.
+              Originally, the simulator only had the ability to place individual vehicles in the map. Our group has added the ability to set spawn points where vehicles can spawn and the user is able to modify the spawn rate.
             </p>
           </section>
 
           <section id="weather">
             <h3>Weather Conditions (<a target="_blank" href = "https://www.figma.com/proto/R9dOJUwHWYqjOIgQZGzzSL/Prototype-C?scaling=min-zoom&node-id=1%3A3">Figma</a>)</h3>
             <p>
-              The simulator currently has no weather mechanics, with the road conditions being dry the entire time. Our group will expand upon this by:
+              The simulator currently has no weather mechanics, with the road conditions being dry the entire time. Our group has expanded upon this by beginning work on:
             <ul>
               <li>Implementing a slider in the settings to change the weather to rainy/foggy in real time</li>
               <li>Adding road glare that inhibits the driver's vision</li>
               <li>Adding rainy/foggy blocks of road in the map editor</li>
             </ul>
+              Due to time constraints, the weather feature has not been completed. However, we have included documentation for future groups to continue implementing this feature.
             </p>
           </section>
 
           <section id="pedestrian">
             <h3>Pedestrian Behavior (<a target="_blank" href = "https://www.figma.com/proto/OCSkfT1JsON4AwWia5WDjf/Prototype-D?node-id=1%3A3&scaling=min-zoom">Figma</a>)</h3>
             <p>
-              The current behavior of pedestrians is to continuously walk in a straight path. Our group would like to modify the behavior of the pedestrian AI by having pedestrians convey their intent through body language (e.g. standing at an
-              crosswalk, waiting to cross the road). In addition our group would like to modify the speed at which the pedestrians move (i.e. walking down a sidewalk or running across the street) as well as allowing the user to draw the path that the pedestrian takes.
+              The original behavior of pedestrians is to continuously walk in a straight path. Our group has modified the behavior of the pedestrian AI allowing the user to modify the pedestrian's path so that the pedestrian walks in a pre-defined path that can also be delayed by any amount of seconds.
             </p>
           </section>
 
           <section id="car-settings">
             <h3>Car Settings (<a target="_blank" href = "https://www.figma.com/proto/1HVIPCDwc9ZtnHt0pnSQsQ/Prototype-E?node-id=4%3A2&scaling=min-zoom">Figma</a>)</h3>
             <p>
-              Currently, the simulator only has 6 settings to modify the car’s behavior. In addition to modifying the car’s turning physics to make the simulator more realistic, our group will extend upon the car settings by:
+              Originally, the simulator only has 6 settings to modify the car’s behavior. In addition to modifying the car’s turning physics to make the simulator more realistic, our group has extended upon the car settings by:
             <ul>
-              <li>Implementing the ability to enable/disable traction control</li>
+              <li>Beginning the implementation of traction control</li>
               <li>Implementing a text field to set the acceleration delay</li>
               <li>Implementing fuel consumption rate</li>
-              <li>Implementing a slider to modify the car’s handling</li>
+              <li>Beginning the implementation of a slider to modify the car’s handling</li>
             </ul>
-            Our group will also finish implementing the fuel capacity/level since the car currently does not consume fuel while running and will continue to run even when the current fuel level is set to zero.
+            Our group has also finished implementing the fuel capacity/level since the car originally does not consume fuel while running and will continue to run even when the current fuel level is set to zero.
             </p>
           </section>
 
@@ -138,6 +129,12 @@
                 <li>Sprint 2 (10/27/2020 - 11/6/2020) - Created low-fidelity prototypes</li>
                 <li>Sprint 3 (11/10/2020 - 11/20/2020) - Created high-fidelity prototypes</li>
                 <li>Sprint 4 (11/24/2020 - 12/4/2020) - Finalized high-fidelity prototypes, presented our work, and prepared our backlog for Sprint 5</li>
+                <li>Sprint 5 (1/31/2021 - 2/17/2021) - Implemented fuel consumption rate, non-functional UI, and acceleration delay</li>
+                <li>Sprint 6 (2/17/2021 - 3/3/2021) - Implemented weather states for weather slider</li>
+                <li>Sprint 7 (3/4/2021 - 3/17/2021) - Worked on snowy weather functionality and began work on scenario editor </li>
+                <li>Sprint 8 (3/19/2021 - 3/31/2021) - Added ability to add NPC spawn points in map editor and fixed bugs in scenario editor </li>
+                <li>Sprint 9 (4/1/2021 - 4/14/2021) - Added ability to modify traffic density, completed basic functionality of the scenario editor, and created user guide </li>
+                <li>Sprint 10 (4/15/2021 - 4/27/2021) - Added additional traffic signs into the map editor, finished testing, and created maintenance guide </li>
               </ul>
             </p>
           </section>
